@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TuniTrip</string>
+    <string name="log_in">Log in</string>
+    <string name="log_infb">Log in with Facebook</string>
+    <string name="fg_paswd">Forgot Password ?</string>
+    <string name="dont_hv_acc">Dont have account ? Sign in</string>
+    <string name="welcome">You are welcome</string>
+    <string name="log_in_with">Log in with your account</string>
+
+
+</resources>
