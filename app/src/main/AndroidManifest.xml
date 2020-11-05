@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".tourist.Tourist_Main_Activity"></activity>
+        <activity android:name=".guide.Guide_Main_Activity" />
+        <activity android:name=".Registration_Guide" />
+        <activity android:name=".RegistrationTourist_f" />
+        <activity android:name=".RegistrationGuide_f" />
+        <activity android:name=".RegistrationGuide_2" />
+        <activity android:name=".Registration_Tourist" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

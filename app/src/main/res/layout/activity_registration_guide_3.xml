@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationGuide_f">
+
+
+    <EditText
+        android:id="@+id/editTextTexB3"
+        android:layout_width="197dp"
+        android:layout_height="47dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="B3 Card"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTexCin" />
+
+    <Button
+        android:id="@+id/photoUploadDeploma"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginTop="112dp"
+        android:background="@drawable/ic_photo"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+    <ImageView
+        android:id="@+id/imageViewLogi"
+        android:layout_width="170dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTexB3" />
+
+    <Button
+        android:id="@+id/photoUploadCIN"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="77dp"
+        android:background="@drawable/ic_photo"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextTexCin"
+        app:layout_constraintTop_toBottomOf="@+id/photoUploadDeploma" />
+
+    <Button
+        android:id="@+id/button_finish"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/button_bg"
+        android:backgroundTintMode="add"
+        android:text="Finish  "
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar3" />
+
+    <Button
+        android:id="@+id/photoUploadB3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="77dp"
+        android:background="@drawable/ic_photo"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextTexB3"
+        app:layout_constraintTop_toBottomOf="@+id/photoUploadCIN" />
+
+    <EditText
+        android:id="@+id/editTextTexCin"
+        android:layout_width="197dp"
+        android:layout_height="47dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="CIN Card"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTexDeploma" />
+
+    <EditText
+        android:id="@+id/editTexDeploma"
+        android:layout_width="197dp"
+        android:layout_height="47dp"
+
+        android:layout_marginTop="96dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Deploma"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar4" />
+
+    <TextView
+        android:id="@+id/textViewLogo"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="94dp"
+        android:background="@color/yellow"
+        android:text="With TuniTrip You're in a good hands"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
