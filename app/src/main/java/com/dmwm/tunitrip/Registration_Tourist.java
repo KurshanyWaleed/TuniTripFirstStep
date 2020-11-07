@@ -17,7 +17,7 @@ public class Registration_Tourist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration__tourist);
         img=(ImageView) findViewById(R.id.tourist_switch);
-             btnnext=(Button) findViewById(R.id.button_finish);
+             btnnext=(Button) findViewById(R.id.button_goNext);
 
         btnnext.setOnClickListener(new View.OnClickListener() {
             @Override

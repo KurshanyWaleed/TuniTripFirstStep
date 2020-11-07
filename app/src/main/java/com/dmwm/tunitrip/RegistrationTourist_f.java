@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.dmwm.tunitrip.guide.Guide_Main_Activity;
 import com.dmwm.tunitrip.tourist.Tourist_Main_Activity;
 
 public class RegistrationTourist_f extends AppCompatActivity {
@@ -17,7 +16,7 @@ public class RegistrationTourist_f extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration_guide_2);
 
-        finish=(Button)findViewById(R.id.button_finish);
+        finish=(Button)findViewById(R.id.button_goNext);
         finish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

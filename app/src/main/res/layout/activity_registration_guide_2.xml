@@ -38,7 +38,7 @@
                 app:srcCompat="@drawable/logo" />
 
             <EditText
-                android:id="@+id/editTexDeploma"
+                android:id="@+id/editTexUserName"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="32dp"
@@ -54,7 +54,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/editTextTextEmail"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="16dp"
@@ -67,10 +67,10 @@
                 android:paddingLeft="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTexDeploma" />
+                app:layout_constraintTop_toBottomOf="@+id/editTexUserName" />
 
             <Button
-                android:id="@+id/button_finish"
+                android:id="@+id/button_goNext"
                 android:layout_width="350dp"
                 android:layout_height="48dp"
                 android:layout_marginTop="52dp"
@@ -138,7 +138,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.185"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextEmail" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

@@ -34,7 +34,7 @@
                 app:srcCompat="@drawable/logo" />
 
             <EditText
-                android:id="@+id/editTexDeploma"
+                android:id="@+id/editTexUserName"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="24dp"
@@ -51,7 +51,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/tourist_switch" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/editTextTextEmail"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="16dp"
@@ -65,10 +65,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTexDeploma" />
+                app:layout_constraintTop_toBottomOf="@+id/editTexUserName" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/editloginPassword"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="16dp"
@@ -82,10 +82,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextEmail" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName4"
+                android:id="@+id/editTextTextPasswordC"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="16dp"
@@ -99,10 +99,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+                app:layout_constraintTop_toBottomOf="@+id/editloginPassword" />
 
             <Button
-                android:id="@+id/button_finish"
+                android:id="@+id/button_goNext"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
@@ -114,8 +114,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPasswordC"
+                app:layout_constraintVertical_bias="1.0" />
 
             <TextView
                 android:id="@+id/textView3"

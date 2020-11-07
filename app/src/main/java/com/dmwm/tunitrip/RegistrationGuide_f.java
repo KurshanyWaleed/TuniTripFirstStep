@@ -16,7 +16,7 @@ public class RegistrationGuide_f extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration_guide_3);
 
-    finish=(Button)findViewById(R.id.button_finish);
+    finish=(Button)findViewById(R.id.button_goNext);
     finish.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {

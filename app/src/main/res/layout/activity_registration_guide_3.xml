@@ -72,7 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/photoUploadDeploma" />
 
     <Button
-        android:id="@+id/button_finish"
+        android:id="@+id/button_goNext"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
@@ -113,10 +113,10 @@
         android:paddingLeft="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTexDeploma" />
+        app:layout_constraintTop_toBottomOf="@+id/editTexUserName" />
 
     <EditText
-        android:id="@+id/editTexDeploma"
+        android:id="@+id/editTexUserName"
         android:layout_width="197dp"
         android:layout_height="47dp"
 

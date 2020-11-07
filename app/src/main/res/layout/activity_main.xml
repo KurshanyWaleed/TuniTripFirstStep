@@ -28,7 +28,7 @@
             app:srcCompat="@drawable/logo" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/editTextLogintEmailAddress"
             android:drawableStart="@drawable/ic_email_24"
             android:paddingStart="10dp"
             android:layout_width="300dp"
@@ -46,7 +46,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/editloginPassword"
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:drawableStart="@drawable/ic_password"
@@ -60,7 +60,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextLogintEmailAddress" />
 
         <Button
             android:id="@+id/log_in_button"
@@ -76,10 +76,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+            app:layout_constraintTop_toBottomOf="@+id/editloginPassword" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonFacebok"
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_marginTop="14dp"
@@ -90,10 +90,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewForget" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textViewForget"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
@@ -116,7 +116,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button2" />
+            app:layout_constraintTop_toBottomOf="@+id/buttonFacebok" />
 
         <TextView
             android:id="@+id/textView5"
